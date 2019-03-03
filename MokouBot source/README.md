@@ -1,42 +1,25 @@
-# Sayori-Bot Discord Wrapper
-A discord bot wrapper for the Sayori-Bot main project
-
-This code repo utilizes a modified version of MokouBot
-Repo: https://github.com/benoxoft/MokouBot
+# MokouBot
+A discord bot based on Chatterbot and discord.py
 
 ## Installation
 Install python >= 3.5
 
 ##### Install dependencies:
 ```
-pip install -r requirements.txt
+pip install chatterbot discord.py
 ```
 
-To utilzie the voice response, install ffmpeg.
-Edit your PATH environment variable if needed.
+##### Download and install MongoDB:
+https://www.mongodb.com/
 
-## Setting up the bot
-
-##### Get an API key
-Create a new application here: https://discordapp.com/developers/applications/me#top <br>
-Find the api key in the new application under Token and copy-paste it into a new file named API_KEY.txt located in the project root directory.<br>
-
-##### Edit config.py
-
-Edit BOTID
-Edit OWNERID
-
-##### Edit train.py
-
-Edit your bot's name
+##### In a terminal start MongoDB:
+```
+mongod --dbpath data/db/
+```
 
 ## Running the bot
 
-##### Train the bot with the English Corpus
-```
-python3 train.py
-```
-##### Train the bot with 4chan:
+##### Train the bot:
 The bot grabs conversations from threads on 4chan. You can configure from which board to get the data in config.py <br>
 By default it grabs conversations from those boards:
 ```
@@ -50,12 +33,16 @@ NSFW_BOARDS = ['jp', 'a', 'v', 'b', 'pol']
 ```
 When ready start training:
 ```
-python 4chan_train.py
+python train.py
 ```
+
+##### Get an API key
+Create a new application here: https://discordapp.com/developers/applications/me#top <br>
+Find the api key in the new application under Token and copy-paste it into a new file named API_KEY.txt located in the project root directory.<br>
 
 ##### Start the bot
 ```
-python bot.py
+python mokou.py
 ```
 
 ##### Invite the bot to your server

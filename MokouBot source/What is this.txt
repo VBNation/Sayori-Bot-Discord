@@ -1,0 +1,3 @@
+As stated in the main readme, much of this wrapper is based from benoxoft's MokouBot.
+
+Repo: https://github.com/benoxoft/MokouBot
