@@ -25,6 +25,7 @@ Find the api key in the new application under Token and copy-paste it into a new
 
 Edit BOTID <br>
 Edit OWNERID
+Edit ChatBot name
 
 ##### Edit train.py
 
