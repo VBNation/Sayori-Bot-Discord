@@ -9,6 +9,7 @@ from gtts import gTTS
 import youtube_dl
 from config import BOTID
 from config import OWNERID
+from config import COMMANDPREFIX
 
 import discord
 
@@ -68,7 +69,7 @@ async def on_message(message):
 
 # If the message author isn't the bot and the message starts with the
     # command prefix ('!' by default), check if command was executed
-    if message.author.id != BOTID and message.content.startswith('~'):
+    if message.author.id != BOTID and message.content.startswith(COMMANDPREFIX):
         # Remove prefix and change to lowercase so commands aren't case-sensitive
         message.content = message.content[1:].lower()
 
