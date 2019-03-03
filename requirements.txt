@@ -9,6 +9,5 @@ python-dateutil>=2.7,<2.8
 python-twitter>=3.0,<4.0
 sqlalchemy>=1.2,<1.3
 pint>=0.8.1
-dhooks==1.1.0
 youtube_dl
 gtts>=2.0.0,<2.0.4
