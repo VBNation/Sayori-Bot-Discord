@@ -65,3 +65,10 @@ python bot.py
 ##### Invite the bot to your server
 Go there and invite your bot: https://discordapp.com/oauth2/authorize?client_id={YOUR_CLIENT_ID}&scope=bot&permissions=0 <br>
 Change {YOUR_CLIENT_ID} to the client ID of your bot
+
+## How to communicate
+##### Textual communication
+The bot picks up messages that include its Discord name. <br>
+The bot will not respond to the name you included in the config.py or bot.py files <br>
+##### Verbal response
+To get the bot to respond verbally, join a voice channel and type in "join" starting with your command prefix stated in config.py (Default COMMANDPREFIX = '~').
