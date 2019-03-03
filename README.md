@@ -12,7 +12,7 @@ Install python >= 3.5
 pip install -r requirements.txt
 ```
 
-To utilzie the voice response, install ffmpeg.
+To utilize the voice response, install ffmpeg.
 Edit your PATH environment variable if needed.
 
 ## Setting up the bot
