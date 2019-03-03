@@ -36,6 +36,9 @@ Edit your bot's name
 ```
 python3 train.py
 ```
+
+**-----OR-----**
+
 ##### Train the bot with 4chan:
 The bot grabs conversations from threads on 4chan. You can configure from which board to get the data in config.py <br>
 By default it grabs conversations from those boards:
