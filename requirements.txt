@@ -1,3 +1,4 @@
+discord.py==0.16.12
 chatterbot>=1.0.0
 chatterbot-corpus
 mathparse>=0.1,<0.2
