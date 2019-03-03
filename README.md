@@ -1,7 +1,7 @@
 # Sayori-Bot Discord Wrapper
 A discord bot wrapper for the Sayori-Bot main project
 
-This code repo utilizes a modified version of MokouBot,
+This code repo utilizes a modified version of MokouBot <br>
 Repo: https://github.com/benoxoft/MokouBot
 
 ## Installation
@@ -23,7 +23,7 @@ Find the api key in the new application under Token and copy-paste it into a new
 
 ##### Edit config.py
 
-Edit BOTID,
+Edit BOTID <br>
 Edit OWNERID
 
 ##### Edit train.py
@@ -56,7 +56,7 @@ When ready start training:
 python 4chan_train.py
 ```
 
-##### Start the bot
+## Start the bot
 ```
 python bot.py
 ```
