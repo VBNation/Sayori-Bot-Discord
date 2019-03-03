@@ -66,9 +66,16 @@ python bot.py
 Go there and invite your bot: https://discordapp.com/oauth2/authorize?client_id={YOUR_CLIENT_ID}&scope=bot&permissions=0 <br>
 Change {YOUR_CLIENT_ID} to the client ID of your bot
 
+## Command List
+Type "help" starting with your command prefix <br>
+Ex: <br>
+```
+~help
+```
+This command will return a PM message to the person who sent it. The list can be found in the features directory.
 ## How to communicate
 ##### Textual communication
 The bot picks up messages that include its Discord name. <br>
 The bot will not respond to the name you included in the config.py or bot.py files <br>
 ##### Verbal response
-To get the bot to respond verbally, join a voice channel and type in "join" starting with your command prefix stated in config.py (Default COMMANDPREFIX = '~').
+To get the bot to respond verbally, join a voice channel and type in ```join``` starting with your command prefix stated in config.py (Default COMMANDPREFIX = '~').
