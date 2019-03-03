@@ -29,7 +29,7 @@ Edit ChatBot name
 
 ##### Edit train.py
 
-Edit your bot's name
+Edit your bot's name to the one set in config.py
 
 ## Running the bot
 
