@@ -6,8 +6,9 @@ logging.basicConfig(level=logging.INFO)
 
 
 # configure how the bot train and retrieve responses
+#Change ChatBot name to your choice
 chatbot = ChatBot(
-    'Sayori',
+    'Bot',
     trainer='chatterbot.trainers.ListTrainer',
     storage_adapter='chatterbot.storage.SQLStorageAdapter',
 	filters=["chatterbot.filters.RepetitiveResponseFilter"],
