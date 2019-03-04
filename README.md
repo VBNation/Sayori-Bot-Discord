@@ -54,12 +54,12 @@ NSFW_BOARDS = ['jp', 'a', 'v', 'b', 'pol']
 ```
 When ready start training:
 ```
-python 4chan_train.py
+python3 4chan_train.py
 ```
 
 ## Start the bot
 ```
-python bot.py
+python3 bot.py
 ```
 
 ##### Invite the bot to your server
