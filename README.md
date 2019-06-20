@@ -1,7 +1,7 @@
 # Sayori-Bot Discord Wrapper
 A discord bot wrapper for the Sayori-Bot main project
 
-This code repo utilizes a modified version of MokouBot <br>
+This code repo utilizes a heavily modified version of MokouBot <br>
 Repo: https://github.com/benoxoft/MokouBot
 
 ## Installation
